@@ -17,7 +17,9 @@ If you use other DLL mods:
 If done correctly, when you open the game you should see a watermark in the top right corner of the game's window (DebugManager vX.X by Radai)
 
 # Basic Usage
+* Press L3 + Start or F10 (can be changed in DebugManager.ini) to toggle the Debug GUI
 * Press L3 + R3 to enable Debug Dash. While Debug Dash is active, the player character with move at triple the game's speed and have its gravity entirely disabled. Note that this only works on XINPUT devices (XBox Controllers)
+* In ImGui windows where you can select multiple things from a list, you can unselect by double clicking anywhere on the screen while the Debug GUI is open.
 
 # Enemy Control Guide
 You can only control enemies using an XINPUT device (XBox controller). Use DS4 (the software) if you don't have an XINPUT device.
