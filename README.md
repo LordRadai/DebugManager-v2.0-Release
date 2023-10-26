@@ -16,9 +16,6 @@ If you use other DLL mods:
 
 If done correctly, when you open the game you should see a watermark in the top right corner of the game's window (DebugManager vX.X by Radai)
 
-# For Mod Engine users
-Do not use ModEngine's block network access feature with this mod. It will crash the game.
-
 # Enemy Control Guide
 When you take control of an enemy, it will switch its movement type to side walk. This is done because turn logic is jank and I have other priorities right now.
 
@@ -58,6 +55,9 @@ Some enemies have an alternative stance. You can access it by pressing START.
 Weapon Switch:
 You can cycle through the weapons an enemy has available by pressing BACK.
 
-IMPORTANT NOTES:
+# IMPORTANT NOTES:
 * If you move too far away from the player, the controlled enemy will deload
-* Some enemies could deal reduced damage if you make them fight against other enemies. 
+* Some enemies could deal reduced damage if you make them fight against other enemies.
+* Do not use ModEngine's block network access feature with this mod. It will crash the game.
+![20231026145738_1](https://github.com/LordRadai/DebugManager-v2.0-Release/assets/22768664/869427fe-086b-4223-b813-4221263d129a)
+![20231026145723_1](https://github.com/LordRadai/DebugManager-v2.0-Release/assets/22768664/c9b3857f-0b78-4460-877b-afc18356c4ea)
