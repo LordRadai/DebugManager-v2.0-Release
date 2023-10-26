@@ -16,10 +16,13 @@ If you use other DLL mods:
 
 If done correctly, when you open the game you should see a watermark in the top right corner of the game's window (DebugManager vX.X by Radai)
 
-# Enemy Control Guide
-When you take control of an enemy, it will switch its movement type to side walk. This is done because turn logic is jank and I have other priorities right now.
+# Basic Usage
+* Press L3 + R3 to enable Debug Dash. While Debug Dash is active, the player character with move at triple the game's speed and have its gravity entirely disabled. Note that this only works on XINPUT devices (XBox Controllers)
 
-Attacks:
+# Enemy Control Guide
+You can only control enemies using an XINPUT device (XBox controller). Use DS4 (the software) if you don't have an XINPUT device.
+
+**Attacks**:
 DebugManager will map up to 6 of the available inputs for each attack cateogry, which are:
 1) Action set 1 (EnemyBehavourFirst)
 2) Action set 2 (EnemyBehaviourSecond)
@@ -32,27 +35,27 @@ Holding down L1/LB will switch over to the first action set (Action set 1)
 Holding down both L1/LB and L2/LT will switch over to the fourth action set (combo attacks)
 Releasing any of the above combinations will switch back to the default set.
 
-Dodge:
+**Dodge**:
 If available, dodges are bound to the directional arrows (DPAD) while the B button is held. One arrow for each direction.
 If the character does not perform any dodge actions it's because it doesn't have any.
 
-Block:
+**Block**:
 Holding down L1/LB will put the character in a blocking stance. Letting go of the key will make it so that the character stops blocking.
 
-Dash:
+**Dash**:
 Hold B to sprint while NOT holding L1/LB and L2/LT. 
 
-Jump:
+**Jump**:
 Press Right Stick (R3) to jump. Contrary to the player character, this works even if the enemy is not moving (it will play a slightly different animation)
 
-Lock On/Unlock:
+**Lock On/Unlock**:
 Press Left Stick (L3) to toggle target lock. The character will look for the nearest target it can attack (taking team type into consideration) and use that as a lock on target.
 Right now, no kind of visibility tests are performed to determine the lock target, so it will lock on through walls.
 
-Alt Stance:
+**Alt Stance**:
 Some enemies have an alternative stance. You can access it by pressing START.
 
-Weapon Switch:
+**Weapon Switch**:
 You can cycle through the weapons an enemy has available by pressing BACK.
 
 # IMPORTANT NOTES:
