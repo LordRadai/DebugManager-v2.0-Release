@@ -16,6 +16,9 @@ If you use other DLL mods:
 
 If done correctly, when you open the game you should see a watermark in the top right corner of the game's window (DebugManager vX.X by Radai)
 
+# For Mod Engine users
+Do not use ModEngine's block network access feature with this mod. It will crash the game.
+
 # Enemy Control Guide
 When you take control of an enemy, it will switch its movement type to side walk. This is done because turn logic is jank and I have other priorities right now.
 
