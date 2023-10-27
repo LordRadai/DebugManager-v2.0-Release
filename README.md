@@ -3,8 +3,9 @@ Public release of DebugManager v2.0
 
 # Installation
 * Create a backup of DarkSoulsII.exe
-* Download PatchOnClick (https://www.2brightsparks.com/onclick/) and install it
-* Open PatchOnClick.exe, select Patch a file. Select the game's executable (DarkSoulsII.exe), click Open, then select debug_patch.poc. If done correctly, a new exe file should be created. Replace DarkSoulsII.exe with the new .exe just created
+* Download DebugManagerPatcher (https://github.com/LordRadai/DebugManager_v2.0_patcher)
+* Run the tool on the original game's executable
+* Rename DarkSoulsII_patched.exe to DarkSoulsII.exe
 
 If you don't want to use other DLL mods:
 * Rename DebugManager_v2.0.dll to DINPUT8.dll, drag and drop both the DLL and the DebugManager folder inside the Game folder (where DarkSoulsII.exe is located)
