@@ -1,4 +1,4 @@
-# DebugManager-v2.0-Release
+# DebugManager v2.0
 Public release of DebugManager v2.0
 
 # Installation
