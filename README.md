@@ -3,8 +3,7 @@ Public release of DebugManager v2.0
 
 # Installation
 * Create a backup of DarkSoulsII.exe
-* Download DebugManagerPatcher (https://github.com/LordRadai/DebugManager_v2.0_patcher)
-* Run the tool on the original game's executable (drag and drop DarkSoulsII.exe on DebugManagerPatcher.exe)
+* Run DebugManagerPatcher on the original game's executable (drag and drop DarkSoulsII.exe on DebugManagerPatcher.exe)
 * Rename DarkSoulsII_patched.exe to DarkSoulsII.exe
 
 If you don't want to use other DLL mods:
