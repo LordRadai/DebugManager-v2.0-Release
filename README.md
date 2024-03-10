@@ -2,6 +2,7 @@
 Public release of DebugManager v2.0
 
 # Installation
+* Pick the right version of DebugManager, DebugManager.rar if you don't use DS2LightingEngine, or if you use a version up to v0.8.10, pick DebugManager_LE.rar otherwise
 * Create a backup of DarkSoulsII.exe
 * Run DebugManagerPatcher on the original game's executable (drag and drop DarkSoulsII.exe on DebugManagerPatcher.exe)
 * Rename DarkSoulsII_patched.exe to DarkSoulsII.exe
@@ -13,6 +14,9 @@ If you use other DLL mods:
 * Download Lazy Loader by ChurchGuard (https://www.nexusmods.com/darksouls3/mods/677) and install by following the mod page instructions
 * Drag and drop the DebugManager folder, userconfig.properties and the font folder inside the Game folder (where DarkSoulsII.exe is located)
 * Drag and drop DebugManager_v2.0.dll inside the dllMods folder
+
+# FOR MOD ENGINE USERS
+Disable ModEngine's block network access. If you don't, the game will crash. DebugManager will handle server connection disabilitation instead
 
 # Basic Usage
 * Press L3 + Start or F10 (can be changed in DebugManager.ini) to toggle the Debug GUI
