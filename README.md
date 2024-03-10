@@ -15,9 +15,6 @@ If you use other DLL mods:
 * Drag and drop the DebugManager folder, userconfig.properties and the font folder inside the Game folder (where DarkSoulsII.exe is located)
 * Drag and drop DebugManager_v2.0.dll inside the dllMods folder
 
-# FOR MOD ENGINE USERS
-Disable ModEngine's block network access. If you don't, the game will crash. DebugManager will handle server connection disabilitation instead
-
 # Basic Usage
 * Press L3 + Start or F10 (can be changed in DebugManager.ini) to toggle the Debug GUI
 * Press L3 + R3 to enable Debug Dash. While Debug Dash is active, the player character with move at triple the game's speed and have its gravity entirely disabled. Note that this only works on XINPUT devices (XBox Controllers)
