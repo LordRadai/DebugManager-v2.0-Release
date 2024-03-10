@@ -21,7 +21,7 @@ If you use other DLL mods:
 # Basic Usage
 * Press L3 + Start or F10 (can be changed in DebugManager.ini) to toggle the Debug GUI
 * Press L3 + R3 to enable Debug Dash. While Debug Dash is active, the player character with move at triple the game's speed and have its gravity entirely disabled. Note that this only works on XINPUT devices (XBox Controllers)
-* In ImGui windows where you can select multiple things from a list, you can unselect by double clicking anywhere on the screen while the Debug GUI is open.
+* When any Debug GUI is open, right click in the main game window (outside of GUI windows) to bring up a PopUp menu with some extra actions (such as FPS cap, FPS display)
 
 # Enemy Control Guide
 You can only control enemies using an XINPUT device (XBox controller). Use DS4 (the software) if you don't have an XINPUT device.
