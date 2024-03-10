@@ -24,8 +24,6 @@ If you use other DLL mods:
 * When any Debug GUI is open, right click in the main game window (outside of GUI windows) to bring up a PopUp menu with some extra actions (such as FPS cap, FPS display)
 
 # Enemy Control Guide
-You can only control enemies using an XINPUT device (XBox controller). Use DS4 (the software) if you don't have an XINPUT device.
-
 **Attacks**:
 DebugManager will map up to 6 of the available inputs for each attack cateogry, which are:
 1) Action set 1 (EnemyBehavourFirst)
