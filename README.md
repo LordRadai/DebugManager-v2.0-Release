@@ -7,14 +7,12 @@ Public release of DebugManager v2.0
 * Rename DarkSoulsII_patched.exe to DarkSoulsII.exe
 
 If you don't want to use other DLL mods:
-* Rename DebugManager_v2.0.dll to DINPUT8.dll, drag and drop both the DLL and the DebugManager folder inside the Game folder (where DarkSoulsII.exe is located)
+* Rename DebugManager_v2.0.dll to DINPUT8.dll, drag and drop both the DLL, the DebugManager folder, userconfig.properties and the font folder inside the Game folder (where DarkSoulsII.exe is located)
 
 If you use other DLL mods:
 * Download Lazy Loader by ChurchGuard (https://www.nexusmods.com/darksouls3/mods/677) and install by following the mod page instructions
-* Drag and drop the DebugManager folder inside the Game folder, where DarkSoulsII.exe is
+* Drag and drop the DebugManager folder, userconfig.properties and the font folder inside the Game folder (where DarkSoulsII.exe is located)
 * Drag and drop DebugManager_v2.0.dll inside the dllMods folder
-
-If done correctly, when you open the game you should see a watermark in the top right corner of the game's window (DebugManager vX.X by Radai)
 
 # Basic Usage
 * Press L3 + Start or F10 (can be changed in DebugManager.ini) to toggle the Debug GUI
