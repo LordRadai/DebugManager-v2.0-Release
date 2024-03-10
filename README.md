@@ -1,6 +1,9 @@
 # DebugManager v2.0
 Public release of DebugManager v2.0
 
+This mod has a Discord server dedicated to it!
+https://discord.gg/WvEt3eb7uN
+
 # Installation
 * Pick the right version of DebugManager, DebugManager.rar if you don't use DS2LightingEngine, or if you use a version up to v0.8.10, pick DebugManager_LE.rar otherwise
 * Create a backup of DarkSoulsII.exe
@@ -63,5 +66,3 @@ You can cycle through the weapons an enemy has available by pressing BACK.
 * If you move too far away from the player, the controlled enemy will deload
 * Some enemies could deal reduced damage if you make them fight against other enemies.
 * Do not use ModEngine's block network access feature with this mod. It will crash the game.
-![20231026145738_1](https://github.com/LordRadai/DebugManager-v2.0-Release/assets/22768664/869427fe-086b-4223-b813-4221263d129a)
-![20231026145723_1](https://github.com/LordRadai/DebugManager-v2.0-Release/assets/22768664/c9b3857f-0b78-4460-877b-afc18356c4ea)
