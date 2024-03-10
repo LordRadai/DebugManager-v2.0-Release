@@ -1,6 +1,4 @@
 # DebugManager v2.0
-Public release of DebugManager v2.0
-
 This mod has a Discord server dedicated to it!
 https://discord.gg/WvEt3eb7uN
 
