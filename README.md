@@ -2,6 +2,9 @@
 This mod has a Discord server dedicated to it!
 https://discord.gg/WvEt3eb7uN
 
+NexusMod link:
+https://www.nexusmods.com/darksouls2/mods/1241
+
 # Installation
 * Pick the right version of DebugManager, DebugManager.rar if you don't use DS2LightingEngine, or if you use a version up to v0.8.10, pick DebugManager_LE.rar otherwise
 * Create a backup of DarkSoulsII.exe
