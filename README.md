@@ -6,6 +6,7 @@ NexusMod link:
 https://www.nexusmods.com/darksouls2/mods/1241
 
 # Installation
+* Unpack the game with UXM
 * Pick the right version of DebugManager, DebugManager.rar if you don't use DS2LightingEngine, or if you use a version up to v0.8.10, pick DebugManager_LE.rar otherwise
 * Create a backup of DarkSoulsII.exe
 * Run DebugManagerPatcher on the original game's executable (drag and drop DarkSoulsII.exe on DebugManagerPatcher.exe)
