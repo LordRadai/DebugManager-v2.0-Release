@@ -6,7 +6,7 @@ NexusMod link:
 https://www.nexusmods.com/darksouls2/mods/1241
 
 # Installation
-* Unpack the game with UXM
+* Unpack the game with [UXM](https://www.nexusmods.com/eldenring/mods/1651)
 * Pick the right version of DebugManager, DebugManager.rar if you don't use DS2LightingEngine, or if you use a version up to v0.8.10, pick DebugManager_LE.rar otherwise
 * Create a backup of DarkSoulsII.exe
 * Run DebugManagerPatcher on the original game's executable (drag and drop DarkSoulsII.exe on DebugManagerPatcher.exe)
@@ -16,7 +16,7 @@ If you don't want to use other DLL mods:
 * Rename DebugManager_v2.0.dll to DINPUT8.dll, drag and drop both the DLL, the DebugManager folder, userconfig.properties and the font folder inside the Game folder (where DarkSoulsII.exe is located)
 
 If you use other DLL mods:
-* Download Lazy Loader by ChurchGuard (https://www.nexusmods.com/darksouls3/mods/677) and install by following the mod page instructions
+* Download [Lazy Loader]((https://www.nexusmods.com/darksouls3/mods/677) by ChurchGuard and install by following the mod page instructions
 * Drag and drop the DebugManager folder, userconfig.properties and the font folder inside the Game folder (where DarkSoulsII.exe is located)
 * Drag and drop DebugManager_v2.0.dll inside the dllMods folder
 
