@@ -16,7 +16,7 @@ If you don't want to use other DLL mods:
 * Rename DebugManager_v2.0.dll to DINPUT8.dll, drag and drop both the DLL, the DebugManager folder, userconfig.properties and the font folder inside the Game folder (where DarkSoulsII.exe is located)
 
 If you use other DLL mods:
-* Download [Lazy Loader]((https://www.nexusmods.com/darksouls3/mods/677) by ChurchGuard and install by following the mod page instructions
+* Download [Lazy Loader](https://www.nexusmods.com/darksouls3/mods/677) by ChurchGuard and install by following the mod page instructions
 * Drag and drop the DebugManager folder, userconfig.properties and the font folder inside the Game folder (where DarkSoulsII.exe is located)
 * Drag and drop DebugManager_v2.0.dll inside the dllMods folder
 
