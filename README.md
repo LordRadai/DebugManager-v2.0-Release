@@ -24,11 +24,11 @@ If you use other DLL mods:
 * When any Debug GUI is open, right click in the main game window (outside of GUI windows) to bring up a PopUp menu with some extra actions (such as FPS cap, FPS display)
 
 # Debug Camera
-Press L3 + Square to cycle Debug Camera mode. The avaiable modes are:
+Press L3 + Triangle to cycle Debug Camera mode. The avaiable modes are:
   * Time stop free cam. Game is paused, you can move the camera.
   * Free cam. Game is running, you can move the camera.
   * Fixed camera. Camera is fixed, game is running and you can control the player character.
-While the game is frozen, press Square to advance by one frame.
+While the game is frozen, press Triangle to advance by one frame.
 
 # Enemy Control Guide
 **Attacks**:
