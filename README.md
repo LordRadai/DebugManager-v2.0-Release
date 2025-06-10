@@ -23,6 +23,22 @@ If you use other DLL mods:
 * Press L3 + R3 to enable Debug Dash. While Debug Dash is active, the player character with move at triple the game's speed and have its gravity entirely disabled
 * When any Debug GUI is open, right click in the main game window (outside of GUI windows) to bring up a PopUp menu with some extra actions (such as FPS cap, FPS display)
 
+# Configuration file (userconfig.properties)
+The following entries are available for editing:
+1.	App.FpsMode: can either be 0 (uncapped FPS), 1 (60 FPS), 2 (30 FPS), 3 (20 FPS). Keep in mind that setting this to Uncapped FPS is not enough to make the game run above 60 FPS. You need to also disable the Suppress update time option in game in the right click popup menu
+2.	App.KeyboardOperation: enable or disable keyboard/mouse character inputs
+3.	App.ShowFps: toggle FPS display in the top right corner
+4.	App.TopMost: makes the game window stay on top of everything else, even if alt tabbed out
+5.	App.Window.X	: starting X coordinate of the game window
+6.	App.Window.Y: starting Y coordinate of the game window
+7.	DrawSystem.bIsMultiThreadRendering: leave this to false. Multi thread rendering with debug draw requires a lot of memory to be assigned to the draw command buffer, and it can cause the game to lag, or crash if not enough memory is available.
+8.	AppDebugManager.LogLevel: level of severity. Accepted values are NONE, INFO, WARN, ERROR and DEBUG. Leave this at ERROR, having this in DEBUG is only recommended for troubleshooting/reporting errors, since it causes a lot of file write operations in certain circumstances, and this harms performance
+9.	AppDebugManager.OpenKey: key used to bring up the Debug GUI using your Keyboard. This is a Virtual Key Code, the full list is available here: https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes
+10.	DamageHit.MaxAliveTime: how long a Damage Hit entity (grey sphere indicating hit location) stays alive
+11.	Network.DisableServerMatching: this option is ignored in the Release version of DebugManager. Doesn’t matter it’s value, it will always force offline mode
+12.	Renderer.bShowAabb: enables drawing of Axis Aligned Bounding Boxes for Havok shapes (if present). These shapes are often redundant and not used for actual collision, so this option is left to false by default
+13.	ModelTestScene.IsTitleFlow: If true, the game will immediately go to the main menu, skipping the boot menu step
+
 # Debug Camera
 Press L3 + Triangle to cycle Debug Camera mode. The avaiable modes are:
   * Time stop free cam. Game is paused, you can move the camera.
