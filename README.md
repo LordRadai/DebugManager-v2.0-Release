@@ -67,7 +67,7 @@ Some enemies have an alternative stance. You can access it by pressing START.
 **Weapon Switch**:
 You can cycle through the weapons an enemy has available by pressing BACK.
 
-# IMPORTANT NOTES:
+## IMPORTANT NOTES:
 * If you move too far away from the player, the controlled enemy will deload
 * Some enemies could deal reduced damage if you make them fight against other enemies. This can be changed in CHR_PARAM, through external tools (such as Cheat Engine)
 
