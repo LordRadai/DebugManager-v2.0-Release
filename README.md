@@ -84,6 +84,7 @@ You can cycle through the weapons an enemy has available by pressing BACK.
 ## IMPORTANT NOTES
 * If you move too far away from the player, the controlled enemy will deload
 * Some enemies could deal reduced damage if you make them fight against other enemies. This can be changed in CHR_PARAM, through external tools (such as Cheat Engine)
+* Use the map select on the boot menu at your own risk. It can nuke your saves.
 
 # Screenshots
 ![20240310182413_1](https://github.com/LordRadai/DebugManager-v2.0-Release/assets/22768664/48e8b7eb-c8a4-4ddf-abe9-80c8186f27de)
