@@ -20,3 +20,6 @@ DebugManager is a DLL mod. As such, you have two options for getting it to load:
 1. Use a chain loader, such as LazyLoader (recommended if using more than one DLL mod). Follow the specific loader instructions if using one.
 2. Using one of the DLLs Windows will automatically load upon program startup (dinput8.dll, dxgi.dll etc.). Rename DebugManager.dll to your DLL of choice, then drag and drop into the Game folder (where DarkSoulsII.exe is).
 Once this is done, you can boot up the game. If you did everything correctly, it should boot up to a dark green screen with the mod name and version number on the top right, and a window called SceneSelect.
+
+### Documentation
+Check out the user guide pdf for additional documentation on how to use the mod.
